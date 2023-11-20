@@ -1,6 +1,4 @@
 function getting(){
- 
- 
     var jsondata = JSON.parse(main);
     let htmlContent='';
     jsondata.forEach(item=>{
