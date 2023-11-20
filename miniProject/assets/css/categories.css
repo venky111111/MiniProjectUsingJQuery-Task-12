@@ -1,0 +1,61 @@
+h1 {
+    color: green;
+}
+
+.container {
+    display: block;
+  
+}
+.magnifier{
+    position: fixed;
+    left: 40%;
+    top: 60px;
+    width: 610px;
+    height: 500px;  
+  
+}
+
+.mtr{
+    
+    margin-left: 55px;
+    bottom: 70%;
+  
+}
+
+@media only screen and (max-width:1025px) {
+   .MagnifierImage{
+       width: 100%;
+     
+   }
+
+
+   #magMian{
+     
+        width: 50vmin;
+     
+   }
+
+   .mtr {
+       justify-content: start;
+       margin-left: 130px;
+   }
+
+   #hi {
+       width: 45%;
+   }
+
+}
+@media only screen and (max-width:426px) {
+   .mtr{
+           
+           margin-left: 0px;
+           bottom: 0%;
+         
+   }
+   #hi {
+       width: 30%;
+   }
+   .magnifier{
+       display: none;
+   }
+}

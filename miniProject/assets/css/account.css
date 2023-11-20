@@ -1,0 +1,21 @@
+@media only screen and (max-width:769px) {
+    #img1 img{
+        width:450px;
+    }
+}
+ 
+@media only screen and (max-width:426px) {
+    #img1 img{
+        width:350px;
+    }
+}
+@media only screen and (max-width:376px) {
+    #img1 img{
+        width:280px;
+    }
+}
+#Active{
+border-bottom: 3px solid red;
+border-right: 3px solid red;
+border-style:  none ridge  ridge  none;
+}
